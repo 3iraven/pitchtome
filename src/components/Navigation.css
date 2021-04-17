@@ -1,0 +1,38 @@
+.Nav_link{
+    background-color: #f4511e;
+    padding-left: 20px;
+    padding-right: 50px;
+
+}
+
+.signLine{
+    padding-left: 20px;
+    padding-right: 50px; 
+    font-size: 18px;
+    margin: 0px 0px;
+    
+}
+.navs{
+    font-size: 18px;
+    height: auto;
+    margin: 5px;
+    margin-right:15px;
+    margin-left:20px;
+}
+
+.navsH{
+    font-size: 18px;
+    height: auto;
+    margin: 5px;
+    margin-right:15px;
+    margin-left:200px;
+    text-align: center;
+
+}
+
+  
+  .NavLink{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }

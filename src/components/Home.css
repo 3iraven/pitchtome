@@ -1,6 +1,26 @@
 body{
 padding: 0;
+
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
   h1 {
     color: white;
@@ -14,6 +34,7 @@ padding: 0;
 
   /* Split the screen in half */
 .split {
+    margin-top: 65px;
     height: 100%;
     width: 50%;
     position: fixed;
@@ -28,11 +49,33 @@ padding: 0;
     left: 0;
     background-color: #111;
   }
-  
+  .right-column{
+    margin-top: 60px;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #111;
+  }
+
+  .left-column{
+    margin-top: 60px;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #111;
+  }
+
   /* Control the right side */
   .right {
     right: 0;
-    background-color: red;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -63,3 +106,10 @@ padding: 0;
   }
   
   .btn:hover {opacity: 0.6}
+
+  .fixed-top{
+    background-color: #f4511e;
+    padding: 16px 32px;
+
+
+  }
