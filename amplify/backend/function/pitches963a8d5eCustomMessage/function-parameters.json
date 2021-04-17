@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "pitches963a8d5e",
+  "functionName": "pitches963a8d5eCustomMessage",
+  "resourceName": "pitches963a8d5eCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\Users\\Jeremie\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "pitches963a8d5eCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "http://pitchtome.me",
+  "EMAILSUBJECT": "Confirmation",
+  "EMAILMESSAGE": "Confirm ...",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
