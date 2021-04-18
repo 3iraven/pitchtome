@@ -134,7 +134,15 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+
+        <div row="">
+          <div className="">
+          PitchCoach is a not for profit organization designed to do three things: build an ecosystem of African founders/entrepreneurs and qualified investors, provide resources to support with pitch strategy development and an AI based matching service. PitchCoach matching service is an AI powered software solution that refines the founder/entrepreneur business pitch to include specified information required to reduce time wasted blind pitching. The matching service generates a score driving mutually beneficial opportunities for private equity firms, venture capitalists and angel investors to fund African founders and entrepreneurs.
+          </div>
+        </div>
+
+
+
         </div>
       </div>
       <div className="row">
