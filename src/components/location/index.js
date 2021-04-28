@@ -7,7 +7,7 @@ const Location = () => {
 <div className="">
 <div class="row">
   <div class="column">
-    <h2>Column 1</h2>
+    <h2>Contact Us</h2>
     <p>Some text..address</p>
   </div>
   <div class="column">

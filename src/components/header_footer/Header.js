@@ -43,6 +43,9 @@ const Header = ()=> {
                 <div className="header_logo_title">Coach</div>
             </div>
 
+            <button>Login</button>
+
+
             <IconButton 
                 aria-label="Menu"
                 color="inherit"
@@ -51,11 +54,11 @@ const Header = ()=> {
                 <MenuIcon/>
             </IconButton>
 
+
             <SideDrawer
                 open={drawerOpen}
                 onClose={(value)=>toggleDrawer(value) }
             />
-
 
             </Toolbar>
         </AppBar>
