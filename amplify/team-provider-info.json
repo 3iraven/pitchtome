@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pitchcoach-dev-152418-authRole",
+      "UnauthRoleArn": "arn:aws:iam::144987582167:role/amplify-pitchcoach-dev-152418-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::144987582167:role/amplify-pitchcoach-dev-152418-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-pitchcoach-dev-152418-deployment",
+      "UnauthRoleName": "amplify-pitchcoach-dev-152418-unauthRole",
+      "StackName": "amplify-pitchcoach-dev-152418",
+      "StackId": "arn:aws:cloudformation:us-west-2:144987582167:stack/amplify-pitchcoach-dev-152418/a4c7ce40-a939-11eb-bec1-0a0e7ec6ed53",
+      "AmplifyAppId": "d1zworc8rt1s66"
+    }
+  }
+}
