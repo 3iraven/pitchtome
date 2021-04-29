@@ -62,8 +62,7 @@ function App() {
 
 <div class="split right">
   <div class="centered">
-    <h2>Sign Up
-</h2>
+    <h2>Sign Up to Pitch Coach</h2>
 <p>Please fill in this form to create an account.
 
 </p>
