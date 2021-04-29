@@ -62,8 +62,11 @@ function App() {
 
 <div class="split right">
   <div class="centered">
-    <h2>Welcome  Pitch Coach</h2>
+    <h2>Sign Up
+</h2>
+<p>Please fill in this form to create an account.
 
+</p>
     <form noValidate>
       
           <TextField
@@ -89,7 +92,18 @@ function App() {
             id="password"
             autoComplete="current-password"
           />
-            
+          <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            name="password"
+            label="Password"
+            type="password"
+            id="password"
+            autoComplete="current-password"
+          />
+
           <FormControlLabel
             control={<Checkbox value="remember" 
                                color="primary" />}
